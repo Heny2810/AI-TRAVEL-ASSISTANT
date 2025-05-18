@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Model files and caches
+models/
+*.pth
+*.onnx
+*.pt
+*.bin
+
+# Transformer cache
+.cache/
+cache/
+transformers_cache/
+
+# Downloaded datasets
+data/
+datasets/
+*.csv
+*.zip
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.*
+
+# System Files
+.DS_Store
+Thumbs.db 
